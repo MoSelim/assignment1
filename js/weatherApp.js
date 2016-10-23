@@ -1,4 +1,4 @@
-var weather = angular.module("weather", ["ui.router", "ui.bootstrap", "angular-underscore"]);
+var weather = angular.module("weather", ["ui.router"]);
 
 weather.config(["$stateProvider", "$urlRouterProvider", function ($stateProvider, $urlRouterProvider) {
 
