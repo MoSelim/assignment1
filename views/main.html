@@ -1,0 +1,31 @@
+
+<div data-ng-include src="'views/widgets/loading-indicator.html'" class="loading-indicator" ng-show="$root.showSpinner" ></div>
+<div class="row main">
+  <div class="row">
+      <h2 class="text-center">Weather App</h2>
+      <h3 class="text-center">Get your Current Weather!</h3>
+      <div class="col-xs-12 has-error text-center">{{weatherForm.errorMessage}}</div>
+      <div class="col-xs-6 col-xs-push-3" ng-show="weatherForm.show">
+          <div class="row">
+              <div class="col-xs-4 field-label">Country / Zip Code:</div>
+              <div class="col-xs-8">
+                <input class="form-control"  type="text" ng-model="weatherForm.input.value"/>
+              </div>
+        </div>
+        <div class="col-xs-12">
+              <button class="btn btn-primary pull-right" ng-click="getWeather()">Get Weather!</button>
+        </div>
+      </div>
+  </div>
+  <div class="row weather-details">
+    <div class="col-xs-6 col-xs-push-3" ng-show="weatherForm.result.cod==200">
+      <h3 class="text-center">Your Current Weather</h3>
+      <div>Overall: {{weatherForm.result.weather[0].main}}, {{weatherForm.result.weather[0].description}}</div>
+      <div>Temperature: {{weatherForm.result.main.temp}}</div>
+      <div>Max. Temperature: {{weatherForm.result.main.temp_max}}</div>
+      <div>Min. Temperature: {{weatherForm.result.main.temp_min}}</div>
+      <div>Pressure: {{weatherForm.result.main.pressure}}</div>
+      <div>Humidity: {{weatherForm.result.main.humidity}}</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+@import url("../fonts/bootstrap.min.css");
+@import url("bootstrap-theme.min.css");
+@import url("bootstrap_base.css");
+* {
+	outline: none !important;
+	font-family: 'sans-serif', 'Arial' ;
+	-webkit-touch-callout: none;
+}
+body > div.ng-scope, body > .root-wrapper{
+	height: initial;
+}
+
+.full-width{
+	width:100%;
+}
+
+body {
+	height: inherit;
+	width: 100%;
+	background-color: #fff !important;
+}
+.container{
+	width: inherit;
+}
+.loading-indicator{
+	position: fixed;
+	z-index: 10000;
+  height: 100%;
+	width: 100%;
+	top: 0px;
+	background: rgba(192,192,192,.5);
+}
+.main div{
+	margin-top: 10px;
+}
+.main button{
+	margin-top: 20px;
+  margin-right: -14px;
+}
+.field-label{
+	font-size: 20px;
+}
+.weather-details{
+	font-size: 20px
+}
+.has-error {
+	color: #a94442;
+}

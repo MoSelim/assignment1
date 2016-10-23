@@ -1,0 +1,211 @@
+.navbar-inverse
+{
+    background-image: none;
+}
+.alert,
+.alert-warning
+{
+    background-image: none;
+}
+a {
+    color: #3599AD;
+}
+body>div>div>.page-header,
+.container,
+.page-parent .page-header .page-header-wrapper {
+    width: 1173px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-fixed-top .collapse {
+    display: block;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 4px 8px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+body {
+    background-color: #EBEDF3;
+}
+body > div.ng-scope,
+body > .root-wrapper {
+    height: 100%;
+    background-color: #EBEDF3;
+}
+input,
+textarea {
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+footer {
+    margin-top: 5px;
+    margin-bottom: 57px;
+    font-size: 12px;
+}
+.btn {
+    display: inline-block;
+    padding: 4px 8px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid #E9E9E9;
+    border-radius: 3px;
+}
+.btn {
+    box-shadow: none;
+    outline: 0;
+    background-color: #fff;
+    border-color: #DBDFE4;
+    color: #3599AD;
+}
+.btn-primary {
+    color: #FFF;
+    background-color: #3699AC;
+    border-color: #1D7E8C;
+    box-shadow: none;
+}
+.btn-primary:hover {
+    color: #FFF;
+    background-color: #3396A3;
+    border-color: #1D7E8C;
+    box-shadow: none;
+}
+.btn.disabled,
+.btn[disabled="disabled"],
+.btn.disabled:hover,
+.btn[disabled="disabled"]:hover {
+    color: #fff;
+    background-color: #DBE0E5;
+    border-color: #B9C1C8;
+    box-shadow: none;
+}
+
+.btn.edit-btn,
+.btn.edit-btn:hover {
+    color: #272930;
+    background-color: #d5d5d5;
+    border: 1px #aaacaf solid;
+}
+
+.text-muted {
+    color: #989DAC;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.badge.alert {
+    background-color: #DA3226;
+}
+.top-badge-container .top-badge {
+    position: absolute;
+    top: 0;
+    left: 24px;
+    padding: 3px 4px;
+}
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    color: #FFF;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #989DAC;
+    border-radius: 3px;
+}
+.progress-bar {
+    background-color: #3599AD;
+    background-image: none;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #1E2025;
+}
+.pagination > li > a,
+.pagination > li > span {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.panel
+{
+    box-shadow: none;
+}
+.panel-default > .panel-heading
+{
+    background-image: none;
+}
+.panel-default > .panel-heading
+{
+    background-color: #fff;
+    border: 0;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top: 0;
+}
+.datepicker .btn-info.active {
+    background-color: #3599AD;
+    border-color: #3599AD;
+}
+
+.input-group.datepicker>input[type="text"]
+{
+    z-index: 3;
+}
+.input-group.datepicker>.input-group-btn>button
+{
+    min-height: 30px;
+    color: #333;
+}
+.datepicker .btn-info.active,
+.datepicker .btn-info.active.focus,
+.datepicker .btn-info.active:focus,
+.datepicker .btn-info.active:hover,
+.datepicker .btn-info.focus:active,
+.datepicker .btn-info:active:focus,
+.datepicker .btn-info:active:hover
+{
+    background-color: #3699ac;
+    border-color: #3699ac;
+}
+.datepicker .btn-info.active>span {
+    color: #fff;
+}
+.datepicker .dropdown-menu .btn
+{
+    color: #333;
+}
